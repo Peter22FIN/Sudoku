@@ -24,4 +24,8 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
+	
+	public static int row(String candidateSolution){
+		
+	}
 }
