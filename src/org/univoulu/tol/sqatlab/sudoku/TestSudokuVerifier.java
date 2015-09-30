@@ -20,25 +20,25 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void isPositiveTest() {
-		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "417369825";
 		assertEquals(0, SudokuVerifier.positive (candidateSolution));
 	}
 
 	@Test
 	public void isNotPositiveTest() {
-		String candidateSolution = "4-17369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "4-17369825";
 		assertEquals(-1, SudokuVerifier.positive (candidateSolution));
 	}
 	
 	@Test
 	public void noSameInRowTest() {
-		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "417369825";
 		assertEquals(0, SudokuVerifier.row (candidateSolution));
 	}
 	
 	@Test
 	public void sameInRowTest() {
-		String candidateSolution = "4417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "4417369825";
 		assertEquals(-3, SudokuVerifier.row (candidateSolution));
 	}
 	
