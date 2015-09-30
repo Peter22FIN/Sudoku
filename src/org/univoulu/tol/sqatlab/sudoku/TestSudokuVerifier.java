@@ -30,4 +30,10 @@ public class TestSudokuVerifier {
 		assertEquals(-1, SudokuVerifier.positive (candidateSolution));
 	}
 	
+	@Test
+	public void isNotPositiveTest() {
+		String candidateSolution = "4417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		assertEquals(-3, SudokuVerifier.positive (candidateSolution));
+	}
+	
 }

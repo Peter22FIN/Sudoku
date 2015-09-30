@@ -72,3 +72,5 @@ CompilationAction 1443619745247 SudokuVerifier.java
 UnitTestCaseAction 1443619747230 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443619747230 TestSudokuVerifier OK
 EditAction 1443619764637 SudokuVerifier.java 1646 3 16 0
+RefactoringAction 1443619798571 TestSudokuVerifier.java ADD void isNotPositiveTest()/2 METHOD
+EditAction 1443619808797 TestSudokuVerifier.java 1298 5 10 5
