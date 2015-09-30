@@ -50,3 +50,8 @@ UnitTestSessionAction 1443618038505 TestSudokuVerifier OK
 RefactoringAction 1443618076778 TestSudokuVerifier.java ADD void isPositiveTest()/2 METHOD
 RefactoringAction 1443618080793 TestSudokuVerifier.java RENAME isPositiveTest()/2=>void isNotPositiveTest() METHOD
 EditAction 1443618094681 TestSudokuVerifier.java 1065 4 8 4
+UnitTestCaseAction 1443618096284 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618096284 TestSudokuVerifier OK
+RefactoringAction 1443618451131 SudokuVerifier.java ADD static int positive(String)/2 METHOD
+RefactoringAction 1443618460655 SudokuVerifier.java RENAME positive(String)/2=>static int row(String) METHOD
+EditAction 1443618491418 TestSudokuVerifier.java 1065 4 8 4

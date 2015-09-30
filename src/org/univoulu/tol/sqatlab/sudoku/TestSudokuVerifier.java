@@ -26,7 +26,7 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void isNotPositiveTest() {
-		String candidateSolution = "4-17369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "4017369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(-1, SudokuVerifier.positive (candidateSolution));
 	}
 	
