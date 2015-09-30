@@ -6,3 +6,12 @@ EditAction 1443616490027 SudokuVerifier.java 411 1 2 0
 UnitTestCaseAction 1443616502301 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443616502304 TestSudokuVerifier FAIL
 EditAction 1443616534544 TestSudokuVerifier.java 386 1 3 1
+UnitTestCaseAction 1443616536780 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616536781 TestSudokuVerifier OK
+RefactoringAction 1443616570025 TestSudokuVerifier.java ADD void test()/2 METHOD
+RefactoringAction 1443616599066 TestSudokuVerifier.java RENAME test()/2=>void wrongtest() METHOD
+RefactoringAction 1443616604081 TestSudokuVerifier.java RENAME wrongtest()=>void wrongSolutiontest() METHOD
+RefactoringAction 1443616605594 TestSudokuVerifier.java RENAME wrongSolutiontest()=>void wrongSolutionTest() METHOD
+RefactoringAction 1443616611608 TestSudokuVerifier.java RENAME test()=>void rightSolutiontest() METHOD
+RefactoringAction 1443616613122 TestSudokuVerifier.java RENAME rightSolutiontest()=>void rightSolutionTest() METHOD
+EditAction 1443616613797 TestSudokuVerifier.java 652 2 6 2
