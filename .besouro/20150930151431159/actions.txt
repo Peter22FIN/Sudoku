@@ -45,3 +45,8 @@ UnitTestSessionAction 1443617987292 TestSudokuVerifier OK
 RefactoringAction 1443618028528 TestSudokuVerifier.java REMOVE rightSolutionTest() METHOD
 RefactoringAction 1443618031553 TestSudokuVerifier.java ADD void rightSolutionTest() METHOD
 EditAction 1443618036241 TestSudokuVerifier.java 832 3 6 3
+UnitTestCaseAction 1443618038505 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618038505 TestSudokuVerifier OK
+RefactoringAction 1443618076778 TestSudokuVerifier.java ADD void isPositiveTest()/2 METHOD
+RefactoringAction 1443618080793 TestSudokuVerifier.java RENAME isPositiveTest()/2=>void isNotPositiveTest() METHOD
+EditAction 1443618094681 TestSudokuVerifier.java 1065 4 8 4
