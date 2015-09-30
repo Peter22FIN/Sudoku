@@ -32,7 +32,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void noSameInRowTest() {
-		String candidateSolution = "447369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidateSolution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(0, SudokuVerifier.row (candidateSolution));
 	}
 	
