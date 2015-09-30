@@ -56,6 +56,7 @@ public class SudokuVerifier {
 			if (candidateSolution.charAt(i)==56) eight++;
 			if (candidateSolution.charAt(i)==57) nine++;
 			if (one>1 || two>1 || three>1 || four>1 || five>1 || six>1 || seven>1 || eight>1 || nine>1) return -3;
+			j++;
 		}
 		return 0;
 	}
