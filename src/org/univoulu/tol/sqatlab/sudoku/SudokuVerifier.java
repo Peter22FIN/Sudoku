@@ -25,6 +25,13 @@ public class SudokuVerifier {
 	}
 	
 	public static int row(String candidateSolution){
+		int j, one, two, three, four, five, six, seven, eight, nine = 0;
+		for (int i=0; i < candidateSolution.length(); i++){
+			if (j==9){
+				j=0;
+			}
+			
+		}
 		return 0;
 	}
 }
