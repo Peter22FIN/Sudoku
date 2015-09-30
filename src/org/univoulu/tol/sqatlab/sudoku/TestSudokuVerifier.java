@@ -38,7 +38,7 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void sameInRowTest() {
-		String candidateSolution = "4417369825";
+		String candidateSolution = "417669825";
 		assertEquals(-3, SudokuVerifier.row (candidateSolution));
 	}
 	
