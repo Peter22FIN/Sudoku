@@ -8,7 +8,9 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		String candidateSolution = "";
+		int verify = SudokuVerifier.verify (candidateSolution);
+		assertEquals(1, verify);
 	}
 
 }
