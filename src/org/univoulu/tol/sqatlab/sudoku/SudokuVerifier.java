@@ -18,7 +18,7 @@ public class SudokuVerifier {
 	public static int positive(String candidateSolution){
 		for (int i=0; i < candidateSolution.length(); i++){
 			char c = candidateSolution.charAt(i);
-			if (c<1 || c>9){
+			if (c<49 || c>57){
 				return -1;
 			}
 		}

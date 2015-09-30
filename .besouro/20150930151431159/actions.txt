@@ -37,3 +37,6 @@ EditAction 1443617779460 SudokuVerifier.java 632 2 4 0
 RefactoringAction 1443617805418 TestSudokuVerifier.java ADD void rightSolutionTest()/2 METHOD
 RefactoringAction 1443617836970 TestSudokuVerifier.java RENAME rightSolutionTest()/2=>void isPositiveTest() METHOD
 EditAction 1443617859580 TestSudokuVerifier.java 832 3 6 3
+UnitTestCaseAction 1443617861137 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617861138 TestSudokuVerifier FAIL
+EditAction 1443617986188 SudokuVerifier.java 634 2 4 0
