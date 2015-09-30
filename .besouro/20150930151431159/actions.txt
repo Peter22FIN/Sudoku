@@ -74,3 +74,18 @@ UnitTestSessionAction 1443619747230 TestSudokuVerifier OK
 EditAction 1443619764637 SudokuVerifier.java 1646 3 16 0
 RefactoringAction 1443619798571 TestSudokuVerifier.java ADD void isNotPositiveTest()/2 METHOD
 EditAction 1443619808797 TestSudokuVerifier.java 1298 5 10 5
+CompilationAction 1443619809078 TestSudokuVerifier.java
+UnitTestCaseAction 1443619813363 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443619813364 TestSudokuVerifier OK
+RefactoringAction 1443619836632 TestSudokuVerifier.java RENAME isNotPositiveTest()/2=>void Test() METHOD
+RefactoringAction 1443619840646 TestSudokuVerifier.java RENAME Test()=>void sameTest() METHOD
+RefactoringAction 1443619843160 TestSudokuVerifier.java RENAME sameTest()=>void sameInRowTest() METHOD
+CompilationAction 1443619848701 TestSudokuVerifier.java
+UnitTestCaseAction 1443619850338 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443619850338 TestSudokuVerifier OK
+RefactoringAction 1443619866707 TestSudokuVerifier.java ADD void isPositiveTest()/2 METHOD
+RefactoringAction 1443619874221 TestSudokuVerifier.java RENAME isPositiveTest()/2=>void Test() METHOD
+RefactoringAction 1443619880235 TestSudokuVerifier.java RENAME Test()=>void noSameTest() METHOD
+RefactoringAction 1443619881249 TestSudokuVerifier.java RENAME noSameTest()=>void noSameInTest() METHOD
+RefactoringAction 1443619882763 TestSudokuVerifier.java RENAME noSameInTest()=>void noSameInRowTest() METHOD
+EditAction 1443619888797 TestSudokuVerifier.java 1518 6 12 6
