@@ -14,4 +14,14 @@ public class SudokuVerifier {
 		}
 		// returns 1 if the candidate solution is correct
 	}
+	
+	public static int positive(String candidateSolution){
+		for (int i=0; i < candidateSolution.length(); i++){
+			char c = candidateSolution.charAt(i);
+			if (c<1 || c>9){
+				return -1;
+			}
+		}
+		return 0;
+	}
 }

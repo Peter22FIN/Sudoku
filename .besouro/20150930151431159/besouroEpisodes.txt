@@ -2,3 +2,6 @@
 1443616615258 test-addition 1 45 true
 1443616615259 test-addition 1 45 true
 1443616642603 regression 2 10 true
+1443616722974 regression 1 1 true
+1443616766254 regression 2 19 true
+1443616766255 regression 1 19 true
