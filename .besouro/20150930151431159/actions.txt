@@ -34,3 +34,6 @@ RefactoringAction 1443617343214 SudokuVerifier.java ADD int positive FIELD
 RefactoringAction 1443617344725 SudokuVerifier.java RENAME positive=>static int positive() METHOD
 RefactoringAction 1443617353236 SudokuVerifier.java RENAME positive()=>static int positive(String) METHOD
 EditAction 1443617779460 SudokuVerifier.java 632 2 4 0
+RefactoringAction 1443617805418 TestSudokuVerifier.java ADD void rightSolutionTest()/2 METHOD
+RefactoringAction 1443617836970 TestSudokuVerifier.java RENAME rightSolutionTest()/2=>void isPositiveTest() METHOD
+EditAction 1443617859580 TestSudokuVerifier.java 832 3 6 3
