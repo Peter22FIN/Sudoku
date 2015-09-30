@@ -22,6 +22,10 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public static int subgrid(String candidateSolution){
+		return 0;
+	}
+	
 	public static int row(String candidateSolution){
 		int j = 0;
 		int one = 0;
@@ -60,4 +64,9 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
+	
+	public static int column(String candidateSolution){
+		return 0;
+	}
+	
 }

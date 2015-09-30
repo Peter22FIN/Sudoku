@@ -104,3 +104,11 @@ UnitTestCaseAction 1443619999250 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443619999251 TestSudokuVerifier OK
 EditAction 1443620079827 TestSudokuVerifier.java 1225 6 12 6
 EditAction 1443620093538 TestSudokuVerifier.java 1224 6 12 6
+UnitTestCaseAction 1443620095113 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620095113 TestSudokuVerifier OK
+RefactoringAction 1443620613446 SudokuVerifier.java ADD int subgrid FIELD
+RefactoringAction 1443620615962 SudokuVerifier.java RENAME subgrid=>static int subgrid() METHOD
+RefactoringAction 1443620631491 SudokuVerifier.java RENAME subgrid()=>static int subgrid(String) METHOD
+RefactoringAction 1443620734760 SudokuVerifier.java ADD static int subgrid(String)/2 METHOD
+RefactoringAction 1443620746291 SudokuVerifier.java RENAME subgrid(String)/2=>static int column(String) METHOD
+EditAction 1443620749039 SudokuVerifier.java 1807 5 18 0
