@@ -15,3 +15,6 @@ RefactoringAction 1443616605594 TestSudokuVerifier.java RENAME wrongSolutiontest
 RefactoringAction 1443616611608 TestSudokuVerifier.java RENAME test()=>void rightSolutiontest() METHOD
 RefactoringAction 1443616613122 TestSudokuVerifier.java RENAME rightSolutiontest()=>void rightSolutionTest() METHOD
 EditAction 1443616613797 TestSudokuVerifier.java 652 2 6 2
+UnitTestCaseAction 1443616615258 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443616615258 TestSudokuVerifier.rightSolutionTest OK
+EditAction 1443616632244 TestSudokuVerifier.java 652 2 6 2
