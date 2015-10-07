@@ -18,3 +18,8 @@ EditAction 1444218242744 TestSudokuVerifier.java 1451 7 14 7
 UnitTestCaseAction 1444218244887 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444218244887 TestSudokuVerifier FAIL
 EditAction 1444218256432 TestSudokuVerifier.java 1451 7 14 7
+UnitTestCaseAction 1444218258531 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444218258532 TestSudokuVerifier OK
+RefactoringAction 1444218275052 TestSudokuVerifier.java ADD void noSameInColumnTest()/2 METHOD
+RefactoringAction 1444218278572 TestSudokuVerifier.java RENAME noSameInColumnTest()/2=>void sameInColumnTest() METHOD
+EditAction 1444218313711 TestSudokuVerifier.java 1680 8 16 8
