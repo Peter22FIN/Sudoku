@@ -1,0 +1,4 @@
+FileOpenedAction 1444216614688 SudokuVerifier.java 1807 5 18 0
+UnitTestCaseAction 1444216620340 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444216620343 TestSudokuVerifier OK
+EditAction 1444216678500 SudokuVerifier.java 1806 5 6 0
